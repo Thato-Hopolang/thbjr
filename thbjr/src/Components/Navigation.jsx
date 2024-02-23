@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom" 
+//Add useMatch & useResolvedPath to above line
+//Add these when you've added active styles to your nav li in styles
 
 const Navigation = () => {
   return (
@@ -17,10 +19,16 @@ const Navigation = () => {
 export default Navigation
 
 function CustomLink ({ to, children }) {
+
   const path = window.location.pathname
+  // Once you have added active styles to links remove the code above and use the code below
+  // const resolvedPath = useResolvedPath(to)
+  // const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+
   return (
+    //replace path with isActive once active styles have beem added
     <li className={ path === to ? "active" : ""}>
-      <a href="">{children}</a>
+      <Link to={to}>{children}</Link>
     </li>
   )
 }
