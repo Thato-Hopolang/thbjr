@@ -1,0 +1,16 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navigation ul {
+    
+}

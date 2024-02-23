@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom" 
 //Add useMatch & useResolvedPath to above line
 //Add these when you've added active styles to your nav li in styles
+import Button from "../Button/Button"
 import "./Navigation.css"
 
 const Navigation = () => {
@@ -12,7 +13,8 @@ const Navigation = () => {
         <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/Projects">Projects</CustomLink>
         <CustomLink to="/About">About</CustomLink>
-      </ul>    
+      </ul>
+      <Button text={"Contact"}/>
     </div>
   )
 }
