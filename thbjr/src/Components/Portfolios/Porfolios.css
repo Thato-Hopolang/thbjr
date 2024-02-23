@@ -1,0 +1,9 @@
+.portfolios {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 0.125rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    max-width: fit-content;
+}

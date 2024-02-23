@@ -11,6 +11,6 @@
     gap: 1.5rem;
 }
 
-.navigation ul {
-    
+.navigation ul li {
+    font-size: 1.125rem;
 }
