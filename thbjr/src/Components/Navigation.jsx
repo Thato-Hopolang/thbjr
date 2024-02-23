@@ -2,10 +2,11 @@
 import { Link } from "react-router-dom" 
 //Add useMatch & useResolvedPath to above line
 //Add these when you've added active styles to your nav li in styles
+import "./Navigation.css"
 
 const Navigation = () => {
   return (
-    <div>
+    <div className="navigation">
       <Link to="/">thbjr</Link>
       <ul>
         <CustomLink to="/">Home</CustomLink>
