@@ -8,8 +8,8 @@ const ErrorInfo = ({ errornumber }) => {
       <h3>{errornumber}</h3>
       <p>Wrong, something has gone.</p>
       <div className="options-holder">
-        <LinkedBtn to={"/"} btntext={"Try Again"}/>
-        <LinkedBtn to={"/"} btntext={"Back Home"}/>
+        <LinkedBtn className={"btn-border"} to={"/"} btntext={"Try Again"}/>
+        <LinkedBtn className={"btn-bg"} to={"/"} btntext={"Back Home"}/>
       </div>
     </div>
   )
@@ -17,8 +17,8 @@ const ErrorInfo = ({ errornumber }) => {
 
 export default ErrorInfo
 
-function LinkedBtn({ to, btntext }) {
+function LinkedBtn({ className, to, btntext }) {
   return (
-    <Link to={to}>{btntext}</Link>
+    <Link className={className} to={to}>{btntext}</Link>
   )
 }
