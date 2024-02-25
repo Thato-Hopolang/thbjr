@@ -8,7 +8,7 @@ const ErrorInfo = ({ errornumber }) => {
       <h3>{errornumber}</h3>
       <p>Wrong, something has gone.</p>
       <div className="options-holder">
-        <LinkedBtn className={"btn-border"} to={"/"} btntext={"Try Again"}/>
+        <LinkedBtn onClick={refreshPage} className={"btn-border"} btntext={"Try Again"}/>
         <LinkedBtn className={"btn-bg"} to={"/"} btntext={"Back Home"}/>
       </div>
     </div>
@@ -21,4 +21,8 @@ function LinkedBtn({ className, to, btntext }) {
   return (
     <Link className={className} to={to}>{btntext}</Link>
   )
+}
+
+function refreshPage() {
+  window.location.reload(false)
 }

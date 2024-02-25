@@ -1,5 +1,6 @@
 import Hero from "../Components/Hero/Hero"
 import Porfolios from "../Components/Portfolios/Porfolios"
+import Project from "../Components/Projects/Project"
 
 const Home = () => {
   return (
@@ -7,6 +8,7 @@ const Home = () => {
 
 			Welcome Home
       <Hero/>
+      <Project/>
       <Porfolios/>
     </div>
   )
