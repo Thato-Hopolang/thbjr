@@ -19,8 +19,8 @@ function ProjectTile() {
     <div className="project">
 
       <div className="optionsholder">
-      <ProjectOption className={"btn-code"} text={"Source Code"}/>
-      <ProjectOption className={"btn-live"} text={"Live Preview"}/>
+      <ProjectOption className={"btn-code btn-border"} text={"Source Code"}/>
+      <ProjectOption className={"btn-live btn-bg"} text={"Live Preview"}/>
       </div>
 
     </div>
