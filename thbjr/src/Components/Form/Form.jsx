@@ -15,6 +15,12 @@ const Form = () => {
     event.preventDefault();
     alert(inputs);
   }
+
+  const handleChangebox = (event) => {
+    setTextarea(event.target.value)
+  }
+
+  const [textarea, setTextarea] = useState()
   
   return (
     <form onSubmit={handleSubmit}>
@@ -26,15 +32,10 @@ const Form = () => {
         onChange={handleChange}
       />
       </label>
-      <label>Enter your age:
-        <input 
-          type="number" 
-          name="age" 
-          value={inputs.age || ""} 
-          onChange={handleChange}
-        />
-        </label>
-        <input type="submit" />
+      <label>Message
+        <textarea value={textarea} onChange={handleChangebox} />
+      </label>
+      <input type="submit" />
     </form>
   )
 }
