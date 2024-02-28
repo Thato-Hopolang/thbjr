@@ -5,8 +5,6 @@ import Project from "../Components/Projects/Project"
 const Home = () => {
   return (
     <div className="hero-section">
-
-			Welcome Home
       <Hero/>
       <Project/>
       <Porfolios/>
