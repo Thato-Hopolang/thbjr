@@ -17,7 +17,6 @@ const Porfolios = () => {
 
 export default Porfolios
 
-
 function Icons({ to, src, alt }) {
   return (
     <Link to={to}><img src={src} alt={alt} /></Link>
