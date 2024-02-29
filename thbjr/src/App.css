@@ -18,6 +18,8 @@ a {
   font-size: 1.125rem;
   border-radius: 2rem;
   padding: 0.5rem 1rem;
+  color: #000;
+  max-width: fit-content;
 }
 
 .btn-border {

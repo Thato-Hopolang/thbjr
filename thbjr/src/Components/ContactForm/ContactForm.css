@@ -1,0 +1,23 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 31.313rem;
+  align-items: center;
+}
+
+
+input {
+  background: #000;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  max-width: 100%;
+}
+
+textarea {
+  resize: none;
+  background: #000;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}

@@ -1,17 +1,15 @@
+import "./ContactForm.css"
 
 const ContactForm = () => {
   return (
-    <div>
-      <div className="">
-        <label htmlFor="name">Name</label>
-        <inpu id="name" placeholder="Enter your name"/>
+    <div className="contact-form">
+      <div className="name-input">
+        <input id="name" placeholder="Name"/>
       </div>
-      <div className="">
-        <label htmlFor="message">Message</label>
-        <textarea name="" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
-      </div>
-      
-      <button>Send message</button>
+      <div className="message-input">
+        <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+      </div>   
+      <button className="btn">Send message</button>
     </div>
   )
 }
