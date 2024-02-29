@@ -13,6 +13,13 @@ a {
   color: #fff;
 }
 
+.btn {
+  background-color: #fff;
+  font-size: 1.125rem;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
 .btn-border {
   border: 0.125rem solid #fff;
   margin-right: 2rem;
@@ -26,7 +33,6 @@ a {
   font-size: 1.25rem;
   padding: 0.375rem 1rem;
 }
-
 
 /* */
 
