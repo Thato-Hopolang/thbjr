@@ -11,7 +11,8 @@ input {
   border: none;
   border-bottom: 2px solid #fff;
   color: #fff;
-  max-width: 100%;
+  min-width: 20.5rem;
+  max-width: 31.25rem;
 }
 
 textarea {
@@ -20,4 +21,7 @@ textarea {
   border: none;
   border-bottom: 2px solid #fff;
   color: #fff;
+  min-width: 20.5rem;
+  max-width: 31.25rem;
+  margin: 0;
 }

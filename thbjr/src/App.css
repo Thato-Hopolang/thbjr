@@ -4,6 +4,17 @@ body {
   color: #fff;
 }
 
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 ul li {
   list-style: none;
 }
