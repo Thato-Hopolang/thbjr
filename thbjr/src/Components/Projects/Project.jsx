@@ -18,12 +18,10 @@ export default Project
 function ProjectTile() {
   return (
     <div className="project">
-
       <div className="optionsholder">
       <ProjectOption className={"btn-code"} text={"Source Code"}/>
       <ProjectOption className={"btn-live"} text={"Live Preview"}/>
       </div>
-
     </div>
   )
 }

@@ -1,12 +1,22 @@
 .project-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 
 .project {
-  max-width: 15.75rem;
-  max-height: 21.875rem;
+  width: 15.75rem;
+  height: 21.875rem;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionsholder {
+  visibility: hidden;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .btn-code, .btn-live {
