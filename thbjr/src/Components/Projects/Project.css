@@ -10,6 +10,7 @@
 }
 
 .btn-code, .btn-live {
-  font-size: 1rem;
+  font-size: 0.8rem;
   border: 1px solid #fff;
+  padding: 0.275rem 0.9rem;
 }

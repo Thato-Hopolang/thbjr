@@ -1,9 +1,11 @@
 .hero {
   max-width: 16.563rem;
   border-right: 1px solid #fff;
-  height: 21.875rem;
+  height: 15.313rem;
+  width: 16.563rem;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .hero h3 {
