@@ -9,12 +9,6 @@ body {
   flex-direction: column;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 ul li {
   list-style: none;
 }

@@ -7,11 +7,14 @@ import Behance from "../Icons/Behance.png"
 
 const Porfolios = () => {
   return (
-    <div className="portfolios">
-      <Icons to={""} src={GitHub} alt={"Github icon"}/>
-      <Icons to={""} src={LinkedIn} alt={"LinkedIn icon"}/>
-      <Icons to={""} src={Behance} alt={"Behance icon"}/>
+    <div className="portfolios-holder">
+      <div className="portfolios">
+        <Icons to={""} src={GitHub} alt={"Github icon"}/>
+        <Icons to={""} src={LinkedIn} alt={"LinkedIn icon"}/>
+        <Icons to={""} src={Behance} alt={"Behance icon"}/>
+      </div>
     </div>
+
   )
 }
 
