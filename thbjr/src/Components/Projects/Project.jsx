@@ -17,7 +17,7 @@ export default Project
 
 function ProjectTile() {
   return (
-    <div className="project">
+    <div className="project project-page project-one project-rest">
       <div className="optionsholder">
       <ProjectOption className={"btn-code"} text={"Source Code"}/>
       <ProjectOption className={"btn-live"} text={"Live Preview"}/>
