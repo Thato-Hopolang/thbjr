@@ -4,11 +4,6 @@ body {
   color: #fff;
 }
 
-.page {
-  display: flex;
-  flex-direction: column;
-}
-
 ul li {
   list-style: none;
 }
@@ -41,16 +36,27 @@ a {
   padding: 0.375rem 1rem;
 }
 
-/* */
+/* Home  */
 
-.hero-section {
+
+
+/* Projects Page */
+
+.project-page {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
-.project-container {
+.projects-holder {
   display: flex;
+  width: 100%;
   justify-content: space-between;
-  align-items: center;
+}
+
+.projects-all {
+  height: 27.5rem;
+  width: 27.5rem;
+  border: 1px solid #fff;
 }

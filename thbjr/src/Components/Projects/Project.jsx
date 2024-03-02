@@ -17,14 +17,14 @@ export default Project
 
 function ProjectTile() {
   return (
-    <div className="project project-page project-one project-rest">
+    <div className="project">
       <div className="optionsholder">
       <ProjectOption className={"btn-code"} text={"Source Code"}/>
       <ProjectOption className={"btn-live"} text={"Live Preview"}/>
       </div>
     </div>
   )
-}
+} 
 
 function ProjectOption({ className, text }) {
   return (
