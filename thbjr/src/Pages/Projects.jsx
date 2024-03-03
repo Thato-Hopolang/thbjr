@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const Projects = () => {
   return (
     <div className="project-page">
-			<h4>"Your only as good as what you can produce"</h4>
+			<h3>"Your only as good as what you can produce"</h3>
       <div className="projects-holder">
         <ProjectTile />
         <ProjectTile />
